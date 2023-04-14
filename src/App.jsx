@@ -20,8 +20,11 @@ function App() {
     <div className="container">
       <Navbar className="mt-3 rounded" bg="dark" expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand href="#home">Adesoye Y.A</Navbar.Brand>
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            className="bg-secondary"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>
@@ -59,7 +62,7 @@ function App() {
       </Navbar>
 
       <Button variant="primary mt-4" onClick={handleShow}>
-        Launch
+        Oncanvas
       </Button>
 
       <Offcanvas show={show} onHide={handleClose}>
